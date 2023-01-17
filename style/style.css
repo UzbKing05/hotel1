@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    widows: 100%;
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.header { 
+    height: 97.93565368652344px;
+    width: 1440px;
+    left: 0px;
+    top: 2370px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius:5px ;
+    
+
+}
+.heading-div {
+    display: flex;
+    justify-content:start;
+}
+.header-logo{
+    width: 150px;
+    height: 100px;
+
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-link{
+    text-decoration: none;
+    margin-left: 80px;
+    transition: 0,5s ease;
+  
+ 
+    
+}
+.header-link:hover{
+    color:blue;
+}
+.header-link:active{
+    color: red;
+}
+.button-header{
+    margin-left: 60px;
+    letter-spacing: 2px;
+    height: 47px;
+    width: 189px;
+    left: 911px;
+    top: 1.46px;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px;
+    background-color: red;
+    color: #fff;
+
+}
+.hero-div{
+height: 533px;
+width: 1440px;
+left: 0px;
+top: 98px;
+background-image: url(../img/room1.webp);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size:1500px;
+}
+.main{
+height: 1486px;
+width: 1440px;
+left: 0px;
+top: 631px;
+ background-color:antiquewhite;
+
+}
+.footer{
+height: 170px;
+width: 1440px;
+top: 2370px;
+padding: 24px;
+background-color: #000;
+
+}
