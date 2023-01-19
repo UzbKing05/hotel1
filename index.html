@@ -1,38 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hotel asia</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hotel asia</title>
+
+  <link rel="stylesheet" href="./style/style.css">
 </head>
-<link rel="stylesheet" href="./style/style.css">
+
 <body>
-    <div class="container">
-       <!-- header  -->
-       <header class="header">
-          <div class="heading-div">
-            <img class="header-logo" src="./img/waiter-pic.svg" alt="main-logo">
+
+    <!-- header  -->
+    <header class="header">
+      <div class="container">
+
+        <div class="header-content">
+          <div class="heading-logo-wrapper">
+            <img class="header-logo" src="./img/download.svg" alt="main-logo">
             <img class="header-logo" src="./img/name-logo.svg" alt="hotel-name-logo">
           </div>
-           <nav class="nav">
+          <nav class="nav">
             <a class="header-link"  href="#">Menu</a>
-            <a class="header-link" href="#">Room</a>
-            <a class="header-link" href="#">About</a>
-            <a class="header-link" href="#">News</a>
-            <button class="button-header"type="submit">OrderRoom</button>
+            <a class="header-link" href="#rooms">Rooms</a>
+            <a class="header-link" href="#about">About</a>
+            <a class="header-link" href="#news">News</a>
+            <a href="#order" class="button-header"type="submit">OrderRoom</a>
           </nav>
-       </header>
-       <div class="hero-div">
+        </div>
         
+      </div>
+    </header>
 
-       </div>
-       <main class="main">
-
-       </main>
-       <footer class="footer">
-
-       </footer>
+    <!-- Hero -->
+    <div class="hero-div">
+      <div class="container">
+        <h1 class="h1">Welcome our hotel</h1>
+        <p class="main-p">If you want to visit <br>you may consider our web site</p>
+      </div>
     </div>
+
+    <main class="main">
+
+      <div class="main-div container">
+
+        <div class="page" id="rooms">
+          <h2 class="main-titles">Rooms</h2>
+          <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quibusdam, animi, eaque porro expedita itaque fugiat pariatur hic in neque ducimus nulla ullam voluptates facilis nisi. Accusantium atque unde quasi vero, inventore qui tempore porro rerum alias in neque dolores ullam beatae esse nihil! Deserunt soluta iure eos voluptas? Nihil, itaque quos eaque vitae, magnam ducimus nemo modi ullam corrupti a illum omnis perferendis ratione accusantium, sint eos quas? Cumque id atque sit similique possimus praesentium adipisci placeat labore sint laboriosam ad architecto unde, temporibus tempore totam ducimus. Dolorem, dicta atque officiis eveniet magni accusantium explicabo impedit distinctio repellendus pariatur porro qui doloremque ipsa, quae molestiae quaerat quis esse ad error sint voluptatem </p>
+        </div>
+
+        <div class="page" id="about">
+          <h2 class="main-titles">About</h2>
+          <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quibusdam, animi, eaque porro expedita itaque fugiat pariatur hic in neque ducimus nulla ullam voluptates facilis nisi. Accusantium atque unde quasi vero, inventore qui tempore porro rerum alias in neque dolores ullam beatae esse nihil! Deserunt soluta iure eos voluptas? Nihil, itaque quos eaque vitae, magnam ducimus nemo modi ullam corrupti a illum omnis perferendis ratione accusantium, sint eos quas? Cumque id atque sit similique possimus praesentium adipisci placeat labore sint laboriosam ad architecto unde, temporibus tempore totam ducimus. Dolorem, dicta atque officiis eveniet magni accusantium explicabo impedit distinctio repellendus pariatur porro qui doloremque ipsa, quae molestiae quaerat quis esse ad error sint voluptatem provident. Placeat exercitationem nihil adipisci modi doloremque, consequatur molestias, illo voluptates accusantium explicabo impedit rerum? Ad magni eum iusto excepturi! Explicabo iusto eligendi vero eaque reiciendis fugit perspiciatis commodi alias magnam cum voluptatibus molestias culpa soluta, aliquam error! Accusantium incidunt excepturi nobis omnis quis officia minus atque ea aut architecto veniam totam assumenda magnam cupiditate, a iste voluptate dolores voluptas quisquam. Maiores voluptatum veniam tenetur </p>
+        </div>
+
+        <div class="page">
+          <h2 class="main-titles" id="news">News</h2>
+          <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quibusdam, animi, eaque porro expedita itaque fugiat pariatur hic in neque ducimus nulla ullam voluptates facilis nisi. Accusantium atque unde quasi vero, inventore qui tempore porro rerum alias in neque dolores ullam beatae esse nihil! Deserunt soluta iure eos voluptas? Nihil, itaque quos eaque vitae, magnam ducimus nemo modi ullam corrupti a illum omnis perferendis ratione accusantium, sint eos quas? Cumque id atque sit similique possimus praesentium adipisci placeat labore sint laboriosam ad architecto unde, temporibus tempore totam ducimus. Dolorem, dicta atque officiis eveniet magni accusantium explicabo impedit distinctio repellendus pariatur porro qui doloremque ipsa, quae molestiae quaerat quis esse ad error sint voluptatem provident. Placeat exercitationem nihil adipisci modi doloremque, consequatur molestias, illo voluptates </p>
+        </div>
+
+      </div>
+      </div>
+
+      <div class="order-div" id="order">
+        <div class="container">
+          <h2 class="order" id="OrderRoom">OrderRoom</h2>
+          <form class="form" action="">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+            <br> <br>
+            <label for="email">Mail</label>
+            <input type="email" name="mail" id="email">
+            <br> <br>
+            <label for="phonenumber">Phonenumber</label>
+            <input type="tel" name="phonenumber" id="phonenumber"> <br> <br>
+            <label for="time">Date</label>
+            <input type="date" name="date" id="time">
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      
+    </main>
+    <footer class="footer">
+      <div class="container">
+          <ul class="footer-nav">
+            <li class="footer-nav-item"><a href="#"><img class="telegram-logo" src="./img-svg/download (1).svg" alt=""></a></li>
+            <li class="footer-nav-item"><a href="#"><img class="telegram-logo" src="./img-svg/download (1).svg" alt=""></a></li>
+            <li class="footer-nav-item"><a href="#"><img class="telegram-logo" src="./img-svg/download (1).svg" alt=""></a></li>
+          </ul>
+      </div>
+    </footer>
+
 </body>
 </html>

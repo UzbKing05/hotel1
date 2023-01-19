@@ -4,52 +4,64 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container{
-    widows: 100%;
-    max-width: 1240px;
+    width: 100%;
+    max-width: 1540px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 20px;
     padding-left: 20px;
 }
-.header { 
-    height: 97.93565368652344px;
-    width: 1440px;
-    left: 0px;
-    top: 2370px;
+.header {   
     padding: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #000;
-    border-radius:5px ;
-    
-
+    border: 1px solid rgb(0, 0, 0);
+    background-color:black; 
 }
-.heading-div {
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+.heading-logo-wrapper {
     display: flex;
     justify-content:start;
 }
 .header-logo{
-    width: 150px;
-    height: 100px;
+    width: 130px;
+    height: 70px;
+}
 
-}
 .nav{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .header-link{
     text-decoration: none;
-    margin-left: 80px;
+    margin-left: 30px;
     transition: 0,5s ease;
-  
- 
-    
+    background-color: red;
+    border-radius: 20px;
+    transition: background-color 0.5s ease ;
+    padding: 8px 30px;
 }
 .header-link:hover{
-    color:blue;
+    background-color: rgb(245, 122, 122);  
+}
+
+.h1{
+    text-align: center;
+    letter-spacing: 1px;
+    color: red;
+    font-family: sans-serif;
+   font-size: 36px;
 }
 .header-link:active{
     color: red;
@@ -57,39 +69,93 @@
 .button-header{
     margin-left: 60px;
     letter-spacing: 2px;
-    height: 47px;
-    width: 189px;
-    left: 911px;
-    top: 1.46px;
     border-radius: 8px;
-    padding: 12px 24px 12px 24px;
+    padding: 20px 40px;
     background-color: red;
     color: #fff;
-
+    transition: background-color 0,5s ease ;
+    text-decoration: none;
 }
+.button-header:hover{
+    background-color: rgb(244, 143, 143);
+}
+
 .hero-div{
-height: 533px;
-width: 1440px;
-left: 0px;
-top: 98px;
-background-image: url(../img/1457204991167.jpg);
- background-repeat: no-repeat;
- background-position: center;
- background-size:1500px;
+    background-image: url(../img/1457204991167.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 90px 0;
 }
 .main{
-height: 1486px;
-width: 1440px;
-left: 0px;
-top: 631px;
- background-color:antiquewhite;
+    background-color:antiquewhite;
+    padding: 40px 0 0;
+}
 
+.page:not(:last-child){
+    margin-bottom: 40px;
+}
+
+.hero-logo2{
+}
+.main-p{
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(24, 97, 232);
+    font-family:fantasy;
+    font-size: 56px;
+
+}
+.main-titles{
+    text-align: center;
+    font-family: sans-serif;
+}
+.main-text{
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.order{
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 36px;
+    color: white;
+}
+
+.order-div {
+    padding: 40px 0;
+    background-color: green;
+}
+
+.form{
+    padding: 30px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    background-color:orange;
+}
+.mail-logo{
+    background-color: red;
+    color: #fff;
+}
+.telegram-logo{
+    width: 30px;
+    height: 30px;
 }
 .footer{
-height: 170px;
-width: 1440px;
-top: 2370px;
-padding: 24px;
-background-color: #000;
-
+    padding: 30px 0;
+    background-color: #000;
+    
 }
+.footer-nav{
+    display: flex;
+    justify-content: end;  
+}
+
+.footer-nav-item:not(:last-child){
+    margin-right: 20px;
+}
+
+
